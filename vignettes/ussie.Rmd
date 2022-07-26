@@ -33,3 +33,10 @@ The funciton `uss_get_matches()` can get the data for a country:
 ```{r uss_get_matches}
 italy_matches <- uss_get_matches("italy")
 ```
+
+We can add filtering conditions:
+
+```{r uss_get_matches_filter}
+uss_get_matches("england", season == 1966) %>%
+ glimpse()
+```
