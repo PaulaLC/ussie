@@ -15,11 +15,13 @@ URL: https://github.com/PaulaLC/ussie,
     https://paulalc.github.io/ussie/
 BugReports: https://github.com/PaulaLC/ussie/issues
 Imports: 
+    cli,
     dplyr,
     engsoccerdata,
     magrittr,
     rlang,
-    tibble
+    tibble,
+    withr
 Suggests: 
     testthat (>= 3.0.0),
     knitr,
